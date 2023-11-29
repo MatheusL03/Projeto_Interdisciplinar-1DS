@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="icon" type="image/jpg" href="img/IconLogo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <title>Equação 2 grau</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-menu">
+            <div class="marca"> IMPÉRIO DA MATEMÁTICA</div>
+
+            <div class="logo">
+                <img src="img/IconLogo.svg">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Pagina Inicial</a></li>
+                <li><a href="index.html#anchor">Ferramentas</a></li>
+                <li><a href="about us.html">Sobre nós</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="calculadora-titulo"> Calculadora de Equação de Segundo Grau</div>
+    <div class="container-textocalc">
+        <div class="calculadora-subtitulo"> A equação de 2 grau é uma equação que começa
+            com um coeficiente,tem o valor X ao
+            quadrado e é terminada com um número.
+            Por exemplo: 3X² + 5X - 2 = 0.
+            Pode parecer intimidador, mas não se preocupe! É por isso que estamos aqui.</div>
+        <div class="calculadora-subtitulo2"> Agora iremos começar ! Mas antes vamos para algumas
+            regras.
+
+            Se algum coeficiente for decimal, utilize ponto no lugar de vírgula. Por exemplo, se algum
+            coeficiente for igual a 2,55 então digite 2.55.
+
+            O coeficiente a não pode ser zero.
+
+            Se a equação for uma equação incompleta, isto é, algum termo estiver ausente,
+            substitua o coeficiente do termo ausente por zero. Exemplos:
+            <br><br>
+            <ol style="list-style-type: circle">
+                <li> Na equação x2 + 4 = 0, os coeficientes são: a = 1, b = 0 e c = 4.</li>
+            </ol> <br>
+            <ol style="list-style-type: circle">
+                <li> Na equação -x2 + 3x = 0, os coeficientes são: a = -1, b = 3 e c = 0.</li>
+            </ol>
+        </div>
+    </div>
+
+    <form>
+
+        <div class="container-coeficientes">
+            <div class="coeficientea-titulo"> <label>Coeficiente A</label> </div>
+            <input type="text" id="coeficientea"> <br>
+
+            <div class="coeficienteb-titulo"> <label> Coeficiente B</label> </div>
+            <input type="text" id="coeficienteb"> <br>
+
+            <div class="coeficientec-titulo"> <label>Coeficiente C</label> </div>
+            <input type="text" id="coeficientec"> <br>
+        </div>
+
+        <div class="txtresposta"> <label> Resposta :</label></div>
+        <br> <br>
+      <div class="blocorespostas"> Delta </div>  <div id="delta"></div>
+      <div class="blocorespostas"> X1 </div>  <div id="x1"></div>
+      <div class="blocorespostas"> X2 </div> <div id="x2"></div>
+        <br><br>
+
+
+        <input type="button" id="btncalcular" value="Calcular" onclick="calcularBhaskara()">
+
+        <input type="button" id="btnlimpar" value="Limpar" onclick="limparCalculadora()">
+    </form>
+    <div class="calculadora-textofinal"> A equação de 2 grau é uma ferramenta importante
+        em muitos campos do conhecimento
+        e pode ser usada para descrever curvas, analisar dados, modelar sistemas
+        e fazer previsões.
+        Suas aplicações são diversificadas e têm um impacto significativo em diversas áreas
+        da ciência e da sociedade.</div>
+
+    <footer>
+        <div class="container-copy-logo-marca">
+            <div class="marca-copy">IMPÉRIO DA MATEMÁTICA</div>
+
+            <img class="logo-copy" src="img/IconLogo.svg">
+
+
+            <div class="copyright"> Copyright © 2023-2023 imperio da matematica
+                Todos os direitos reservados.</div>
+
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

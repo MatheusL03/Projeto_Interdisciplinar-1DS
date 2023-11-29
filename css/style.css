@@ -1,0 +1,525 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+
+}
+
+
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+.container-menu {
+    height: 100%;
+    background-color: #630BDB;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    color: #FFF;
+    font-size: 160%;
+    font-style: normal;
+
+    top: 0;
+}
+
+.marca {
+    padding: 1%;
+    margin-left: 1,1%;
+}
+
+a {
+    color: #FFF;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 18px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.logo {
+    display: flex;
+    height: 55px;
+    padding-right: auto;
+}
+
+
+.inicio-menu {
+    padding-top: 25px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    padding-right: 75px;
+    cursor: pointer;
+    border: none;
+    background-color: #630BDB;
+}
+
+.sobre-menu {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #630BDB;
+}
+
+.ferramentas-menu {
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background-color: #630BDB;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 25px;
+    padding-right: 75px;
+}
+
+.imagemPrincipal {
+    max-width: 100%;
+    margin-left: 20%;    
+    width: 80%;
+    object-fit: fill;
+    margin-top: 2px;
+}
+
+.bem-vindo {
+   
+    margin: auto;
+    background-color: black;
+}
+
+.bem-vindo-introducao {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 534px;
+    position: absolute;
+    top: 200px;
+    left: 102px;
+}
+
+.ferramentas {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 3%;
+    padding-top: 1%;
+    left: 40px;
+    top: 60%;
+}
+
+.porcentagem {
+    background: #D9D9D9;
+    width: 400px;
+    height: 236px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    gap: 6px;
+    align-items: center;
+    margin-left: 55px;
+    display: flex;
+}
+
+.equacao {
+    background: #D9D9D9;
+    width: 400px;
+    height: 236px;
+    gap: 6px;
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+}
+
+.imagemEquacao {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    height: auto;
+}
+
+.raiz {
+    background: #D9D9D9;
+    width: 400px;
+    height: 236px;
+    margin-left: 250px;
+    gap: 6px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+}
+
+.titulo-porc {
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 50px;
+
+}
+
+.container-ferramentas {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+
+}
+
+.container-descr-ferramentas {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.descricao-porc {
+    color: #000;
+    font-size: 18px;
+    width: 424px;
+    height: 68px;
+    padding-left: 45px;
+}
+
+.titulo-equacao {
+    color: #000;
+    font-size: 35px;
+    padding-left: 260px;
+}
+
+.descricao-equacao {
+    color: #000;
+
+    font-size: 18px;
+    width: 600px;
+    height: 60px;
+    padding-left: 270px;
+}
+
+.titulo-raiz {
+    color: #000;
+
+    font-size: 35px;
+    padding-left: 260px;
+
+}
+
+.descricao-raiz {
+    color: #000;
+
+    font-size: 18px;
+    width: 490px;
+    height: 68px;
+    padding-left: 260px;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: #6061F7;
+}
+
+.marca-copy {
+    color: #000;
+    font-size: 40px;
+    width: 300px;
+    height: 88px;
+    padding-left: 800px;
+    padding-top: 3%;
+
+}
+
+.logo-copy {
+
+    padding-left: 74%;
+height: 20%;
+}
+
+.copyright {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 45%;
+    padding-top: 10%;
+
+}
+
+.container-copy-logo-marca {
+
+    width: 1440px;
+    height: 366px;
+
+}
+
+.sobrenos-titulo {
+    color: #000;
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 4%;
+
+}
+
+.sobrenos {
+    color: #000;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    width: 547px;
+}
+
+.sobrenos-subtitulo {
+    color: #000;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    width: 607px;
+    height: 105px;
+
+}
+
+.imgsobre {
+    height: 570px;
+    width: 610px;
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.calculadora-titulo {
+    width: 1098px;
+    height: 65px;
+    font-size: 51px;
+
+    font-weight: 400;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.calculadora-subtitulo {
+    font-size: 25px;
+    width: 1000px;
+    height: 94px;
+    padding-top: 4%;
+    font-weight: 400;
+    padding-left: 8%;
+
+}
+
+.calculadora-subtitulo2 {
+    font-size: 25px;
+    width: 1000px;
+    height: 94px;
+    padding-top: 6%;
+    padding-left: 8%;
+}
+
+#coeficientea,
+#coeficienteb,
+#coeficientec {
+    border-radius: 10px;
+    border: 3px solid #2C0561;
+    background: #C0C0FC;
+    width: 350px;
+    height: 90px;
+    font-size: 35px;
+
+}
+
+.container-coeficientes {
+    display: flex;
+    flex-direction: row;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    padding-right: 90%;
+    margin-left: 20%;
+    
+
+}
+
+#coeficientea {
+    position: absolute;
+    right: 70%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#coeficienteb {
+    position: absolute;
+    right: 42%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#coeficientec {
+    position: absolute;
+    left: 70%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.coeficientea-titulo {
+    position: absolute;
+    top: 70%;
+    left: 11%;
+    width: 217px;
+    height: 45px;
+    font-size: 35px;
+}
+
+.coeficienteb-titulo {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 217px;
+    height: 45px;
+    font-size: 35px;
+}
+
+.coeficientec-titulo {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    width: 217px;
+    height: 45px;
+    font-size: 35px;
+}
+
+.containerresposta {
+    width: 818px;
+    height: 147.761px;
+    border-radius: 10px;
+    border: 3px solid #2C0561;
+    background: #E8D8FD;
+    margin-left: 4%;
+    margin-bottom: 4%;
+
+}
+
+.txtresposta {
+    width: 400px;
+    height: 69px;
+    font-size: 35px;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+#btncalcular {
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px solid #2C0561;
+    background-color: #6061F7;
+    color: #2C0561;
+    font-size: 45px;
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    cursor: pointer;
+
+}
+
+#btnlimpar {
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    border: 3px solid #2C0561;
+    background-color: #6061F7;
+    color: #2C0561;
+    font-size: 45px;
+    position: absolute;
+    top: 95%;
+    left: 30%;
+    cursor: pointer;
+}
+
+.calculadora-textofinal {
+    width: 1000px;
+    height: 94px;
+    flex-shrink: 0;
+
+    font-size: 20px;
+    margin-bottom: 4%;
+    padding-left: 5%;
+}
+
+#delta,
+#x1,
+#x2 {
+    background: #E8D8FD;
+    border: 3px solid #2C0561;
+    cursor: default;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#x1 {
+    margin-bottom: 1.3%;
+}
+
+#delta {
+    margin-bottom: 1.3%;
+    margin-top: 1px;
+}
+.blocorespostas
+{
+    
+    margin-left: 5%;
+    font-size: 20px;
+}
